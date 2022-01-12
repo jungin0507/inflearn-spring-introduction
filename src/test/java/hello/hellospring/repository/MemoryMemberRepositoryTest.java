@@ -1,7 +1,6 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +10,7 @@ import static org.assertj.core.api.Assertions.*;
 
 class MemoryMemberRepositoryTest {
 
-    MemoryMemberRespository repository = new MemoryMemberRespository();
+    MemoryMemberRepository repository = new MemoryMemberRepository();
 
     @AfterEach
     public void afterEach() {
